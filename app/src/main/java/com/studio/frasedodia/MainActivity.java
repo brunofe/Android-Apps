@@ -7,18 +7,24 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textoNavaFrase;
+    private TextView textoNovaFrase;
     private Button botaoNovaFrase;
 
-    private String[] frases = {"teste","teste2"};
-    private Object textoNovaFrase;
+    private String[] frases = {
+            "frase1",
+            "frase2",
+            "frase3",
+            "frase4"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textoNovaFrase;
+        textoNovaFrase = findViewById(R.id.textoNovaFraseId);
+        botaoNovaFrase = findViewById(R.id.botaoNovaFraseId);
 
+        textoNovaFrase.setText(frases[0]);
     }
 }
