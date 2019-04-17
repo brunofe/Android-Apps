@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Frase do dia</string>
+    <string name="app_name">Gerador de ofensa</string>
     <string name="texto_frase_dia">Nova Frase</string>
 </resources>
