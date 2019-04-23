@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="verdeEscuro">#1C4419</color>
+    <color name="bagroundImputs">#FFFFFF</color>
 </resources>
